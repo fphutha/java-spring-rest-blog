@@ -22,6 +22,7 @@ public class Author {
     private String username;
     @JsonIgnore
     private String password;
+
     @ManyToOne
     private  List<Post> posts;
 
